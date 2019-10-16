@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/lead_buttons"
+    tools:context=".PhoneNumber">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:layout_marginVertical="250dp"
+    android:orientation="horizontal"
+    android:background="@drawable/textfield_border"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:src="@drawable/ic_local_phone_black_24dp"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/phn_no_entry"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:hint="Enter Phone Number"
+        android:layout_height="60dp"
+
+        />
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Login Page"
+        android:id="@+id/tologinpage"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Next"
+        android:layout_gravity="center"
+        android:id="@+id/next_btn"/>
+
+</LinearLayout>
