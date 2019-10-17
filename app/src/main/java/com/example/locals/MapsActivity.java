@@ -63,8 +63,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
          rfirebaseDatabase=FirebaseDatabase.getInstance();
          rdatabaseReference=rfirebaseDatabase.getReference().child("users");
          FirebaseUser user;
-         user=rAuth.getCurrentUser();
-         userId=user.getUid();          Log.w("USER_ID : ", userId);
+        // user=rAuth.getCurrentUser();
+         userId=/*user.getUid(); */"asw121qszcwd";         Log.w("USER_ID : ", userId);
 
 
 
